@@ -1,4 +1,4 @@
-const submitUrl = 'https://randomstuff69.github.io/borang/submit';
+const submitUrl = 'https://borang.skrin.xyz/submit';
 // const submitUrl = 'http://localhost:5000/submit';
 
 let script = document.querySelector('body > script');
