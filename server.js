@@ -41,7 +41,7 @@ app.post('/form', async (req, res) => {
   }
 });
 
-app.post('/submit', async (req, res) => {
+app.post('https://randomstuff69.github.io/borang/submit', async (req, res) => {
   const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
   let body = req.body;
@@ -197,7 +197,7 @@ app.post('/submit', async (req, res) => {
                         this
                         extension for.
                         <br><br>
-                        We are limiting response to ${limit} to reduce payment for server. After we get a good amount of
+                        We are limiting response to  to reduce payment for server. After we get a good amount of
                         donation, we
                         will
                         lift the limit.
@@ -287,7 +287,7 @@ app.post('/submit', async (req, res) => {
   }
 
   res.send(
-    `${counter} form(s) sent. I need to limit this to ${limit} since too many unimportant Google form has been submitted such as Anime & Kpop. Server is not free. I need to pay for it. Hope you understand.\n
+    `${counter} form(s) sent. I need to limit this to  since too many unimportant Google form has been submitted such as Anime & Kpop. Server is not free. I need to pay for it. Hope you understand.\n
 		<br><br>
 		Use <a href="${urls.extensionChromeStore}" target="_blank">Borang Chrome Extension</a> for unlimited form submission and better support. Don't forget to give Borang Chrome Extension 5 stars <a href="https://chrome.google.com/webstore/detail/borang/mokcmggiibmlpblkcdnblmajnplennol">here</a>
 		<br><br>
